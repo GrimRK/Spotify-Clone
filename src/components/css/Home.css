@@ -1,0 +1,14 @@
+.home
+{
+overflow-y: scroll;
+height: 90%;
+width: 93%;
+}
+.home::-webkit-scrollbar
+{
+    display: none;
+}
+.home>hr{
+    border: 1px solid #3b3b3b;
+    margin-bottom: 80px;
+}

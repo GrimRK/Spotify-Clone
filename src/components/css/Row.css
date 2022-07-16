@@ -1,0 +1,21 @@
+.row{
+    display: flex;
+    flex-direction: column;
+    margin:20px 0px;
+    
+
+}
+.row_header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.row_header>h4{
+padding-left: 20px;
+cursor: pointer;
+}
+.panel_container
+{
+    display: flex;
+    align-items: center;
+}

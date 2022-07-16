@@ -1,0 +1,80 @@
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_buttons
+{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.header_icon
+{
+    background-color: rgba(0,0,0,0.7) !important;
+    color: rgb(122,122,122);
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 20px !important;
+    margin: 5px;
+}
+.header_icon:hover{
+    transition: 200ms ease-in;
+    background-color: rgba(49, 49, 49, 0.7) !important;
+    color: white;
+}
+.header_user
+{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 140px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 100px;
+    height: 40px;
+    padding-right: 8px;
+    cursor:pointer;
+    margin-right: 15px;
+}
+.header_user:hover{
+    transition: 0.2s;
+    background-color: rgba(0,0,0,0.7);
+
+}
+.header_avatar{
+    margin-left: 8px;
+    height: 25px !important;
+    width: 25px !important;
+    
+}
+.header_user>p{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.menu_drop_icon
+{
+    background-color: rgba(0,0,0,0.7);
+    border: 0.47px solid #777777;
+    border-radius: 100px;
+    margin-left: auto;
+    opacity: 0;
+}
+.show_menu_drop
+{
+    transition: 200ms ease-in;
+    opacity: 1;
+}
+.nav_menu{
+    
+}
+.MuiMenu-list{
+    background-color: rgb(42, 42, 42) !important;
+}
+.menu_item
+{
+    background-color: rgb(42, 42, 42) !important;
+    color: white !important;
+    width: 170px !important;
+}

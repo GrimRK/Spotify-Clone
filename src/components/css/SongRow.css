@@ -1,0 +1,50 @@
+
+.table_row
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px 20px;
+    cursor: pointer;
+    color: #bbbbbb;
+}
+.table_row:hover
+{
+    transition: 200ms ease-in;
+    background-color: #353535;
+    border-radius: 5px;
+}
+.r_srno
+{
+    flex:0.03;
+}
+.r_title{
+    flex: 0.35;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-right: 4px;
+}
+.r_title>img{
+    height: 40px;
+    object-fit: contain;
+    margin-right: 5px;
+}
+.song_artist
+{
+color: #bbbbbb;
+font-size: 12px;
+}
+.r_album{
+    flex: 0.25;
+    padding-right: 3px;
+}
+.r_date{
+    flex: 0.25;
+    padding-right: 3px;
+}
+.r_duration{
+    flex: 0.12;
+    padding-right: 3px;
+}

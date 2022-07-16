@@ -1,0 +1,60 @@
+.panel
+{
+    height: 100vh;
+    max-height: 240px;
+    width: 100vw;
+    max-width: 180px;
+    background: linear-gradient(rgba(0,0,0,1),rgb(20, 20, 20));
+    margin: 10px 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.image_container
+{
+    position: relative;
+}
+.panel_image
+{
+    max-height: 160px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.panel_play
+{
+    position: absolute;
+    right: 3%;
+    bottom: 2%;
+    font-size: 60px !important;
+    color: #1db954;
+    background-color: black;
+    border-radius: 1000px;
+    opacity: 0;
+    transition: 400ms !important;
+}
+.panel_play:hover
+{
+    transform: scale(1.1);
+}
+.showPlay
+{
+    
+    opacity: 1 !important;
+}
+.panel:hover
+{
+    transition: 0.2s;
+    background: rgba(41,41,41);
+}
+
+.info_container>h3
+{
+    font-size: 16px;
+    padding-left: 2px;
+}
+.info_container>p
+{
+    padding-left: 2px;
+    font-size: 13px;
+    color: rgb(166,166,166);
+}

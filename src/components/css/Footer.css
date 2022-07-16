@@ -1,0 +1,126 @@
+.footer{
+    border-top: 1.4px solid #777777;
+    height: 65px;
+    width: 97.5%;
+    padding: 20px;
+    bottom: 0;
+    background:linear-gradient(#1e1e1e,#181818);
+    display: flex;
+    justify-content: space-between;
+    color: #747474;
+    z-index: 1000;
+}
+.footer_left{
+    flex: 0.3;
+    display: flex;
+    cursor:default;
+}
+
+.expand_icon
+{
+    
+    position: absolute;
+    font-size: 30px !important;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 100px;
+    color: white;
+    opacity: 0;
+    margin:14px;
+    cursor:pointer;
+
+}
+.show_expand
+{
+    transition: 200ms;
+    opacity: 1;
+}
+
+.song_cover
+{
+    height: 60px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+.song_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.song_info>h4{
+    color: white;
+    
+}
+.footer_center
+{
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_center *.MuiLinearProgress-root
+{
+    background-color: #3eb26667 ;
+}
+.footer_center *.MuiLinearProgress-bar{
+    background-color: #1db954;
+}
+.footer_icon{
+    transition: 200ms color ease-in;
+    cursor: pointer;
+}
+.footer_icon:hover{
+    transition: transform 0.2s ease-in-out;
+    
+    transform: scale(1.2) !important;
+    color: white;
+}
+.colored
+{
+    color:#1db954;
+}
+.colored:hover
+{
+    color:#1db954;
+}
+.footer_right
+{
+    padding: 30px;
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer_right *.MuiSlider-root
+{
+    color: #1db954;
+}
+.control_buttons
+{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 300px;
+}
+.song_progress_container
+{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.song_progress_container>p{
+    font-size: 12px;
+}
+.song_progress_bar
+{
+    color: #1db954 !important;
+    width: 90%;
+    margin: 10px;
+
+}
+.play_icon
+{
+    font-size: 46px !important;
+}

@@ -1,0 +1,62 @@
+.sidebar
+{
+    position: relative;
+    height: 100%;
+    flex: 0.18;
+    background-color: #040404;
+    min-width: 200px;
+    color: white;
+    padding-left:10px ;
+    padding-right: 10px;
+}
+.spotify_sidebar_logo
+{
+    height: 50px;
+    padding: 10px;
+    margin-right: auto;
+}
+.sidebar>hr
+{
+    width: 90%;
+    border: 1px solid #282828;
+    margin: 10px auto;
+}
+.sidebar_title
+{
+    padding: 5px;
+    font-size: large;
+    margin-left: 10px;
+}
+.slide{
+    position: relative;
+}
+.sidebar_cover
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    bottom: 0;
+}
+.sidebar_song_cover
+{
+    /* max-width: 240px; */
+    object-fit: contain;
+    width: 98%;
+}
+.collapse_icon
+{
+    position: absolute;
+    font-size: 40px !important;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 100px;
+    color: white;
+    right: 1.2%;
+    opacity: 0;
+    cursor: pointer;
+}
+.show_collapse{
+    transition: 200ms;
+    opacity: 1;
+}

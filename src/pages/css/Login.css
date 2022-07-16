@@ -1,0 +1,41 @@
+.login
+{
+    height: 100vh;
+    width: 100vw;
+    min-height: fit-content;
+    min-width: fit-content;
+    display: grid;
+    place-items: center;
+    background-color: black !important;
+}
+.login>p{
+    color: rgb(230, 230, 230);
+    max-width: 600px;
+    width: 100%;
+    font-size: large;
+}
+.spotify{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+.login_btn
+{
+    background-color: #1db954 !important;
+    border-radius: 60px !important;
+    padding: 10px 30px !important;
+    color: white !important;
+    font-size: 32px !important;
+    transition: 0.5s;
+}
+.login_btn:hover
+{
+    background-color: #32d169 !important; 
+}
+
+@media(max-width:500px)
+{
+    .login_btn{
+        font-size: 20px !important;
+    }
+}
